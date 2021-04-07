@@ -1,0 +1,6 @@
+# .gitignore file
+
+__pycache__
+core_function.cpython-39.pyc
+test_core_function.cpython-39-pytest-6.2.3.pyc
+.pytest_cache
