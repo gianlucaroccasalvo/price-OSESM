@@ -6,4 +6,4 @@
 # to compute the overall electricity price as a weighted average on the market share, expressed in [€/kWh]
 
 def price(pr, sr, pf, sf):
-  return (pr * sr) + 2*(pf * sf) 
+    return (pr * sr) + 2*(pf * sf)
