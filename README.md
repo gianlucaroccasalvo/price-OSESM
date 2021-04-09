@@ -1,10 +1,15 @@
-# Repository for first OSESM project
+# Electricity price project
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This repo and all associated commits serve as exercise to practice the GitHub workflow, contestually to the Open Source Energy System Modelling course held by prof Daniel Huppmann at Technische Universitet Wien.
+## Purpose
+This repo and all associated commits are intended as an exercise to practice the GitHub workflow, contestually to the Open Source Energy System Modelling course held by prof Daniel Huppmann at Technische Universitet Wien.
 
-It contains a simple function able to compute the price of electricity in a closed market using the respective prices and shares of renewable and fossil source electricity production.
+Furthermore, under future proper development, it is desire of the owner to build this project as an advanced package of tools and datasets to observe electricity price values and trends over time.
+
+## Content
+
+Up to date, it contains a simple function able to compute the price of electricity in a closed market using the respective prices and shares of renewable and fossil source electricity production.
 
 It also contains two continuos integration tools:
 - stickler-ci to check for style errors and automatically **fix** them, according to pep8 python code style guide and using flake8 linter
