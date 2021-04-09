@@ -4,7 +4,13 @@
 
 This repo and all associated commits serve as exercise to practice the GitHub workflow, contestually to the Open Source Energy System Modelling course held by prof Daniel Huppmann at Technische Universitet Wien.
 
-It contains a simple function that will compute the price of electricity in a closed market using the respective prices and shares of renewable and fossil source electricity production.
+It contains a simple function able to compute the price of electricity in a closed market using the respective prices and shares of renewable and fossil source electricity production.
+
+It also contains two continuos integration tools:
+- stickler-ci to check for style errors and automatically **fix** them, according to pep8 python code style guide and using flake8 linter
+- GitHub Actions Python application to automatically run **tests** on the implemented functions, when a change is applied and pushed, using pytest function.
+
+Credits for CONTRIBUTING.rst and PULL_REQUEST_TEMPLATE are due to PYAM project, which has been forked to use a copy of the indicated files.
 
 ## License disclaimer
 Copyright 2021 Gianluca Roccasalvo
