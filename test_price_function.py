@@ -4,4 +4,4 @@ from price_function import price
 
 
 def test_price():
-    assert price(5, 0.3, 4, 0.7) == 4.2
+    assert price(5, 0.3, 4, 0.7) == 4.3
